@@ -1,8 +1,8 @@
 from flask import Flask, render_template
 
-app = Flask(__name__)
+application = Flask(__name__)
 
-@app.route('/', methods=['GET', 'POST'])
+@application.route('/', methods=['GET', 'POST'])
 def home():
     return render_template('home.html')
 
