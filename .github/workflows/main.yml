@@ -19,7 +19,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  my_ci_pipeline
+  my_ci_pipeline:
     runs_on: ubuntu-latest
   
   steps:
