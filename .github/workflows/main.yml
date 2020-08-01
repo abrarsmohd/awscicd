@@ -6,7 +6,7 @@ env:
   EB_PACKAGE_S3_BUCKET_NAME : "zzz.flask-app"
   EB_APPLICAION_NAME: "MyFlask"
   EB_ENVIRONMENT_NAME: "MyFlask-env" 
-  DEPLOY_PACKAGE_NAME: "flask-app1-${{ github.sha }}.zip" 
+  DEPLOY_PACKAGE_NAME: "flask-app2-${{ github.sha }}.zip" 
   AWS_REGION_NAME : "eu-west-2"
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
