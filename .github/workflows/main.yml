@@ -20,7 +20,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   my_ci_pipeline:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
   
     steps:
       - name: Git clone our repository
